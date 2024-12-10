@@ -11,10 +11,17 @@ function draw() {
     for (let j = 0; j < 10; j++) {
       circle(i*50,j*50, 40)}}
     
+let angle = frameCount * 0.001; 
+rotate(angle);
+noStroke();
 
   textSize(225);
   textAlign(CENTER);
   text('⭐', 200,260);
+
+  textSize(225);
+  textAlign(CENTER);
+  text('😃', 200,160);
   }
   
   
