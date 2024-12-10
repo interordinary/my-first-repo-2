@@ -3,8 +3,20 @@ function setup() {
 }
 
 function draw() {
-  background('blue');
-  noFill();
-  strokeWeight(30);
-  circle(200,200,200);
-}
+  background(0);
+
+  fill('blue');
+  noStroke();
+  for (let i = 0; i < 10; i++) {
+    for (let j = 0; j < 10; j++) {
+      circle(i*50,j*50, 40)}}
+    
+
+  textSize(225);
+  textAlign(CENTER);
+  text('⭐', 200,260);
+  }
+  
+  
+
+
